@@ -2,6 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.3.
 
+## Installation
+
+To install the project run the custom script: `npm setup`.
+This will add the git hooks configuration and the project will be installed.
+
+Run `npm git:cofig` if you just want to load the custom configuration for git.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

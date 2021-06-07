@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "setup": " npm run git:config && npm install",
+    "git:config": "git config --local core.hooksPath .githooks/"
   },
   "private": true,
   "dependencies": {
